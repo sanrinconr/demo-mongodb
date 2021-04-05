@@ -1,1 +1,1 @@
-module.exports.Welcome = require('./welcome.model');
+module.exports.Message = require('./message.model');

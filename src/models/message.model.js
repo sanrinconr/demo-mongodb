@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const welcomeSchema = mongoose.Schema(
+const messageSchema = mongoose.Schema(
     {
       name: {
         type: String,
@@ -9,11 +9,11 @@ const welcomeSchema = mongoose.Schema(
       }
     },
     {
-      timestamps: true,
+      timestamps: false,
     }
   );
 
-const Welcome = mongoose.model('welcomeSchema', welcomeSchema);
+const Message = mongoose.model('message', messageSchema);
 
-module.exports = Welcome;
+module.exports = Message;
   

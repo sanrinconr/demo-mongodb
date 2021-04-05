@@ -1,1 +1,2 @@
-module.exports.userController = require('./user.controller');
+module.exports.messageController = require('./message.controller');
+module.exports.homeController = require('./home.controller');
