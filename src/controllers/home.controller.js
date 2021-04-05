@@ -9,6 +9,7 @@ const getWelcomeMessage = (async (req, res) => {
 
 const setWelcomeMessage = (async (req, res) => {
     const result = await homeService.setWelcomeMessage()
+    console.log(result)
     res.send(result);
   });
 
